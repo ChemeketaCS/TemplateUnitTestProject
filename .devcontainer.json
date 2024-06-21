@@ -4,6 +4,7 @@
         "vscode": {
             "extensions": [
                 "usernamehw.errorlens",
+                "vsls-contrib.gitdoc",
                 "ms-vscode.cpptools",
                 "cschlosser.doxdocgen",
                 "davidkaiser.kaiser-project-zip"
