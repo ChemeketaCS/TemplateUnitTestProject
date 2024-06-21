@@ -1,0 +1,13 @@
+{
+    "name": "Chemeketa Basic Project",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "usernamehw.errorlens",
+                "ms-vscode.cpptools",
+                "cschlosser.doxdocgen",
+                "davidkaiser.kaiser-project-zip"
+            ]
+        }
+    }
+}
