@@ -10,4 +10,6 @@
     "gitdoc.autoCommitDelay": 10000,
     "editor.formatOnSave": true,
     "debug.onTaskErrors": "showErrors",
+    "extensions.ignoreRecommendations": true,
+    "chat.disableAIFeatures": true
 }

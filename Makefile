@@ -1,7 +1,7 @@
 # compiler options
 CXXFLAGS = -g -Wall -Wextra
-CXXFLAGS += -std=c++17 -pedantic -pedantic-errors
-CXXFLAGS += -Wfloat-equal -Wredundant-decls -Wshadow -Wconversion
+CXXFLAGS += -std=c++20 -fmodules-ts -pedantic -pedantic-errors
+CXXFLAGS += -Wfloat-equal -Wredundant-decls -Wshadow -Wconversion -Wuninitialized
 
 # list .h files here
 HEADERS =

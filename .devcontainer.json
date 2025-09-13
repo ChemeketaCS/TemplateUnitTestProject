@@ -1,5 +1,5 @@
 {
-    "name": "Chemeketa Basic Project",
+    "name": "Chemeketa Unit Test Project",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -10,5 +10,8 @@
                 "davidkaiser.kaiser-project-zip"
             ]
         }
+    },
+    "build": {
+        "dockerfile": "Dockerfile"
     }
 }
