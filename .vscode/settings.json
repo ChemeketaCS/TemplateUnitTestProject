@@ -5,7 +5,7 @@
     "gitdoc.autoPush": "off",
     "gitdoc.commitValidationLevel": "none",
     "gitdoc.enabled": true,
-    "gitdoc.filePattern": "{**/*.h,**/*.cpp,**/Makefile}",
+    "gitdoc.filePattern": "{**/*.h*,**/*.c*,**/Makefile}",
     "gitdoc.pullOnOpen": false,
     "gitdoc.autoCommitDelay": 10000,
     "editor.formatOnSave": true,
