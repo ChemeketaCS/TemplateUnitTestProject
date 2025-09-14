@@ -4,14 +4,16 @@
         "vscode": {
             "extensions": [
                 "usernamehw.errorlens",
-                "vsls-contrib.gitdoc",
-                "ms-vscode.cpptools",
                 "cschlosser.doxdocgen",
-                "davidkaiser.kaiser-project-zip"
+                "vsls-contrib.gitdoc",
+                // "ms-vscode.cpptools",  // loading this here stops gitdoc from initializing correctly
+                "davidkaiser.kaiser-project-zip",
             ]
         }
     },
     "build": {
         "dockerfile": "Dockerfile"
-    }
+    },
+    // add cpptools after container is built
+    "postAttachCommand": "code --install-extension ms-vscode.cpptools"
 }
