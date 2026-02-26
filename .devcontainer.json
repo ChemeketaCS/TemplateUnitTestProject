@@ -5,7 +5,8 @@
             "extensions": [
                 "usernamehw.errorlens",
                 "cschlosser.doxdocgen",
-                "ascholer.chemeketa-gitdoc",
+                "/usr/chemeketa-gitdoc.vsix",
+                // "ascholer.chemeketa-gitdoc",
                 "ms-vscode.cpptools",
                 "davidkaiser.kaiser-project-zip",
             ]
