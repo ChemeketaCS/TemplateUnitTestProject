@@ -22,5 +22,3 @@ RUN update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-15 60 && \
 # Specify fake user/email so git will run
 RUN git config --global user.name "A Student" && \
     git config --global user.email student@nowhere.edu
-
-ADD https://github.com/ascholerChemeketa/gitdoc/releases/latest/download/chemeketa-gitdoc.vsix /usr/chemeketa-gitdoc.vsix
