@@ -9,6 +9,8 @@
     "gitdoc.pullOnOpen": false,
     "gitdoc.autoCommitDelay": 10000,
     "editor.formatOnSave": true,
+    "files.autoSave": "off",
+    "debug.saveBeforeStart": "allEditorsInActiveGroup",
     "debug.onTaskErrors": "showErrors",
     "extensions.ignoreRecommendations": true,
     "workbench.remoteIndicator.showExtensionRecommendations": false,
