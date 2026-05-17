@@ -6,7 +6,7 @@
                 "usernamehw.errorlens",
                 "cschlosser.doxdocgen",
                 "ascholer.chemeketa-gitdoc",
-                "ms-vscode.cpptools",
+                "ms-vscode.cpptools@1.29.3",
                 "davidkaiser.kaiser-project-zip",
             ]
         },
