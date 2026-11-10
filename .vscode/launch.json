@@ -24,6 +24,10 @@
                 }
             ],
             "MIMode": "gdb",
+            "args": [
+                // prevent Doctest from throwing an exception when a test fails
+                "--no-breaks=true"
+            ]
         },
         {
             "name": "Run Tests (Mac)",
@@ -32,6 +36,10 @@
             "program": "${workspaceFolder}/tests.exe",
             "cwd": "${workspaceFolder}",
             "preLaunchTask": "make tests.exe",
+            "args": [
+                // prevent Doctest from throwing an exception when a test fails
+                "--no-breaks=true"
+            ]
         },
     ]
 }
